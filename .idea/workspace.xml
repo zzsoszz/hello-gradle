@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75372adc-54d8-4479-b9ca-464ff6938aff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/hello-gradle-1.0.0.jar" afterPath="$PROJECT_DIR$/build/libs/hello-gradle-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/hello-gradle_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/hello-gradle_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/hello-gradle_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/hello-gradle_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ivy.xml" afterPath="$PROJECT_DIR$/build/ivy.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy" />
-    </list>
+    <list default="true" id="75372adc-54d8-4479-b9ca-464ff6938aff" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -708,12 +700,12 @@
       <workItem from="1508648285565" duration="5462000" />
       <workItem from="1508654305174" duration="138000" />
       <workItem from="1508654559703" duration="7489000" />
-      <workItem from="1508662948819" duration="827000" />
+      <workItem from="1508662948819" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13916000" />
+    <option name="totallyTimeSpent" value="14320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
