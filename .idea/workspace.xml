@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75372adc-54d8-4479-b9ca-464ff6938aff" name="Default" comment="" />
+    <list default="true" id="75372adc-54d8-4479-b9ca-464ff6938aff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/hello-gradle-1.0.0.jar" afterPath="$PROJECT_DIR$/build/libs/hello-gradle-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/hello-gradle_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/hello-gradle_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/hello-gradle_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/hello-gradle_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ivy.xml" afterPath="$PROJECT_DIR$/build/ivy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -33,18 +41,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hello-gradle" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="hello-gradle" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="hello-gradle" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="upload" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -54,7 +51,53 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApkDistPlugin.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#28#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApkDistExtension.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistExtension.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -283,80 +326,80 @@
               <option name="name" value="hello-gradle" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/ant-1.9.6.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/ant-launcher-1.9.6.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-base-services-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-base-services-groovy-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-build-cache-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-build-option-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-cli-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-core-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-core-api-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-docs-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-installation-beacon-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-jvm-services-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-0.12.1.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-tooling-builders-0.12.1.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-tooling-models-0.12.1.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-launcher-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-logging-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-messaging-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-model-core-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-model-groovy-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-native-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-persistent-cache-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-process-services-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-resources-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-runtime-api-info-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-tooling-api-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-wrapper-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/groovy-all-2.4.12.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-announce-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-antlr-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-build-cache-http-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-build-comparison-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-build-init-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-code-quality-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-composite-builds-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-dependency-management-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-diagnostics-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-ear-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-native-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-play-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-ivy-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-jacoco-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-javascript-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-language-groovy-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-language-java-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-language-jvm-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-language-native-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-language-scala-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-maven-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-osgi-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-base-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-jvm-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-native-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-play-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-plugin-development-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-plugin-use-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-plugins-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-publish-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-reporting-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-gcs-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-http-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-s3-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-sftp-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-scala-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-signing-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-test-kit-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-base-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-jvm-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-native-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-tooling-api-builders-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-version-control-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/gradle-workers-4.3.jar" />
-                  <option value="E:/bxdev/tools/gradle-4.3-rc-2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/ant-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-base-services-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-base-services-groovy-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-build-cache-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-build-option-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-cli-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-core-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-core-api-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-docs-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-installation-beacon-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-jvm-services-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-0.12.1.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-tooling-builders-0.12.1.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-kotlin-dsl-tooling-models-0.12.1.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-launcher-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-logging-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-messaging-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-model-core-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-model-groovy-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-native-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-persistent-cache-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-process-services-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-resources-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-runtime-api-info-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-tooling-api-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-wrapper-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/groovy-all-2.4.12.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-announce-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-antlr-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-build-cache-http-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-build-comparison-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-build-init-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-code-quality-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-composite-builds-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-dependency-management-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-diagnostics-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-ear-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-native-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-ide-play-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-ivy-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-jacoco-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-javascript-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-language-groovy-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-language-java-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-language-jvm-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-language-native-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-language-scala-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-maven-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-osgi-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-base-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-jvm-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-native-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-platform-play-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-plugin-development-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-plugin-use-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-plugins-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-publish-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-reporting-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-gcs-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-http-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-s3-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-resources-sftp-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-scala-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-signing-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-test-kit-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-base-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-jvm-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-testing-native-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-tooling-api-builders-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-version-control-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/gradle-workers-4.3.jar" />
+                  <option value="$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -373,7 +416,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="E:/bxdev/tools/apache-groovy-sdk-2.4.12/groovy-2.4.12/lib/groovy-2.4.12.jar!/groovy/lang/IntRange.class" />
+        <option value="$PROJECT_DIR$/../../tools/apache-groovy-sdk-2.4.12/groovy-2.4.12/lib/groovy-2.4.12.jar!/groovy/lang/IntRange.class" />
         <option value="$PROJECT_DIR$/src/aaa.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/ccc.groovy" />
         <option value="$PROJECT_DIR$/src/groovy/bbb.groovy" />
@@ -392,7 +435,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="415" />
     <option name="y" value="34" />
     <option name="width" value="1400" />
@@ -413,7 +456,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -421,13 +465,38 @@
               <item name="hello-gradle" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="hello-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hello-gradle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hello-gradle" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,6 +507,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello-gradle-test" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -498,18 +568,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="hello-gradle" />
-      <envs />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -549,6 +607,18 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hello-gradle" />
+      <envs />
     </configuration>
     <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="hello-gradle" />
@@ -638,25 +708,26 @@
       <workItem from="1508648285565" duration="5462000" />
       <workItem from="1508654305174" duration="138000" />
       <workItem from="1508654559703" duration="7489000" />
+      <workItem from="1508662948819" duration="827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13089000" />
+    <option name="totallyTimeSpent" value="13916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40820736" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40820736" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40820736" sideWeight="0.49166667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -673,6 +744,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -688,30 +760,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -728,30 +779,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -789,45 +819,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/bxdev/tools/apache-groovy-sdk-2.4.12/groovy-2.4.12/lib/groovy-2.4.12.jar!/groovy/lang/IntRange.class">
+    <entry file="jar://$PROJECT_DIR$/../../tools/apache-groovy-sdk-2.4.12/groovy-2.4.12/lib/groovy-2.4.12.jar!/groovy/lang/IntRange.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/bxdev/tools/gradle-4.3-rc-2/lib/gradle-core-api-4.3.jar!/org/gradle/api/Plugin.class">
+    <entry file="jar://$PROJECT_DIR$/../../tools/gradle-4.3-rc-2/lib/gradle-core-api-4.3.jar!/org/gradle/api/Plugin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/groovy/ccc.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/bbb.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/groovy/aaa.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/gradle-plugins/com.asgradle.apkdist.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -836,34 +844,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistExtension.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/com/asgradle/plugin/ApkDistPlugin.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="164">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="46" />
           <folding>
             <element signature="e#28#57#0" expanded="true" />
           </folding>

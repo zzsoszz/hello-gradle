@@ -10,7 +10,7 @@ class ApkDistPlugin implements Plugin<Project> {
         project.extensions.create('apkdistconf', ApkDistExtension);
 
         project.task('apkdist') {
-            doLast{
+            doLast {
                 println 'hello, world!'
 
                 def closure = project['apkdistconf'].nameMap;
