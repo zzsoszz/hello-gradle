@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.asgradle.apkdist_main" target="1.8" />
+      <module name="com.asgradle.apkdist_test" target="1.8" />
+      <module name="hello-gradle_main" target="1.8" />
+      <module name="hello-gradle_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
